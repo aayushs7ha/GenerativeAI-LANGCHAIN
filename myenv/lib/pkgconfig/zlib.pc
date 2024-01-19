@@ -1,0 +1,13 @@
+prefix=/Users/maverick/GenrativeAI-Langchain/myenv
+exec_prefix=/Users/maverick/GenrativeAI-Langchain/myenv
+libdir=/Users/maverick/GenrativeAI-Langchain/myenv/lib
+sharedlibdir=/Users/maverick/GenrativeAI-Langchain/myenv/lib
+includedir=/Users/maverick/GenrativeAI-Langchain/myenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
